@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+ * Programmer: Mehdi Sohrabi
+ * Email: mehdok@gmail.com
+ * Hub Channel: https://github.com/mehdok
+ -->
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:scrollbars="none"> 
+        
+        <RelativeLayout 
+    		android:layout_width="match_parent"
+        	android:layout_height="wrap_content">
+    
+    
+    <RelativeLayout 
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        
+        <ImageView 
+       		android:id="@+id/logo"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:src="@drawable/mehdok_logo"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"/>
+
+    	<com.mehdok.chachapersiankeyboardpro.MehdokTextView
+    	    android:id="@+id/aboutTitle"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_centerVertical="true"
+    	    android:layout_toRightOf="@+id/logo"
+    	    android:text="@string/about_title"    	    
+    	    android:textSize="40sp"/>        
+    </RelativeLayout>
+    
+    <TextView
+    	android:id="@+id/aboutVersion"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/relativeLayout1"
+    	android:layout_alignLeft="@id/relativeLayout1"   
+    	android:text="@string/about_version" />
+    
+    <com.mehdok.chachapersiankeyboardpro.MehdokTextView 
+        android:id="@+id/aboutText"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentRight="true"
+    	android:layout_below="@id/aboutVersion"
+    	android:text="@string/about_text"
+    	android:layout_marginTop="20dip"
+    	android:textSize="30sp"
+    	android:textColor="@color/text_color"/>
+    
+    <TextView
+    	android:id="@+id/aboutCopyRight"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/aboutText"
+    	android:layout_centerHorizontal="true"
+    	android:layout_marginTop="20dip"
+    	android:text="@string/about_copyright"/>
+    
+    </RelativeLayout>
+    
+
+</ScrollView>
+</LinearLayout>

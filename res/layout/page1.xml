@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+ * Programmer: Mehdi Sohrabi
+ * Email: mehdok@gmail.com
+ * Hub Channel: https://github.com/mehdok
+ -->
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:scrollbars="none">
+        
+        <RelativeLayout 
+    		android:layout_width="match_parent"
+        	android:layout_height="wrap_content">
+        	
+            <com.mehdok.chachapersiankeyboardpro.MehdokTextView
+        		android:id="@+id/page1Title"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textColor="@color/text_color"
+        		android:textStyle="bold"
+        		android:layout_alignParentTop="true"
+        		android:layout_centerHorizontal="true"
+        		android:text="@string/keyboard_activation"
+        		android:textAppearance="?android:attr/textAppearanceLarge"
+        		android:layout_marginTop="@dimen/title_margin_top" 
+        		android:textSize="@dimen/title_text_size"/>
+
+    		<com.mehdok.chachapersiankeyboardpro.MehdokTextView
+        		android:id="@+id/page1Step1"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textColor="@color/text_color"
+        		android:layout_alignParentRight="true"
+        		android:layout_below="@+id/page1Title"
+        		android:layout_marginTop="30dp"
+        		android:text="@string/page1_step1"
+        		android:layout_marginLeft="@dimen/body_margin_left"
+        		android:layout_marginRight="@dimen/body_margin_right"
+        		android:textSize="@dimen/body_text_size" />
+    		
+    		<ImageView 
+    		    android:id="@+id/page1Step1Image"
+    		    android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:src="@drawable/page1_step1"
+        		android:layout_centerHorizontal="true"
+        		android:layout_below="@+id/page1Step1"
+        		android:layout_marginTop="@dimen/image_margin_top"
+        		android:layout_marginBottom="@dimen/image_margin_bottom"
+        		android:layout_marginLeft="@dimen/image_margin_left"
+        		android:layout_marginRight="@dimen/image_margin_right"/>
+    		
+    		<com.mehdok.chachapersiankeyboardpro.MehdokTextView 
+    		    android:id="@+id/page1Step2"
+    		    android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/page1_step2"
+        		android:textColor="@color/text_color"        		
+        		android:layout_alignParentRight="true"
+        		android:layout_below="@+id/page1Step1Image"
+        		android:layout_marginLeft="@dimen/body_margin_left"
+        		android:layout_marginRight="@dimen/body_margin_right"
+        		android:textSize="@dimen/body_text_size"/>
+    		
+    		<ImageView 
+    		    android:id="@+id/page1Step2Image"
+    		    android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:src="@drawable/page1_step2"
+        		android:layout_centerHorizontal="true"
+        		android:layout_below="@+id/page1Step2"
+        		android:layout_marginTop="@dimen/image_margin_top"
+        		android:layout_marginBottom="@dimen/image_margin_bottom"
+        		android:layout_marginLeft="@dimen/image_margin_left"
+        		android:layout_marginRight="@dimen/image_margin_right"/>
+    		
+    		<com.mehdok.chachapersiankeyboardpro.MehdokTextView 
+    		    android:id="@+id/page1Step3"
+    		    android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/page1_step3"
+        		android:textColor="@color/text_color"        		
+        		android:layout_alignParentRight="true"
+        		android:layout_below="@+id/page1Step2Image"
+        		android:layout_marginLeft="@dimen/body_margin_left"
+        		android:layout_marginRight="@dimen/body_margin_right"
+        		android:textSize="@dimen/body_text_size"/>
+    		
+    		<ImageView 
+    		    android:id="@+id/page1Step3Image"
+    		    android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:src="@drawable/page1_step3"
+        		android:layout_centerHorizontal="true"
+        		android:layout_below="@+id/page1Step3"
+        		android:layout_marginTop="@dimen/image_margin_top"
+        		android:layout_marginBottom="@dimen/image_margin_bottom"
+        		android:layout_marginLeft="@dimen/image_margin_left"
+        		android:layout_marginRight="@dimen/image_margin_right"/>
+    		
+    		<com.mehdok.chachapersiankeyboardpro.MehdokTextView 
+    		    android:id="@+id/page1Step4"
+    		    android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/page1_lastStep"
+        		android:textColor="@color/text_color"        		
+        		android:layout_alignParentRight="true"
+        		android:layout_below="@+id/page1Step3Image"
+        		android:layout_marginLeft="@dimen/body_margin_left"
+        		android:layout_marginRight="@dimen/body_margin_right"
+        		android:textSize="@dimen/body_text_size"/>
+    		
+    		<com.mehdok.chachapersiankeyboardpro.MehdokButton 
+    		    android:id="@+id/langSetting"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:background="@drawable/white_button"
+    		    android:text="@string/open_lan_setting"
+    		    android:textColor="@android:color/black"
+    		    android:layout_centerHorizontal="true"
+    		    android:layout_below="@id/page1Step4"
+    		    android:onClick="openLangSettingMethod"
+    		    android:padding="@dimen/button_padding"
+    		    android:layout_marginTop="@dimen/image_margin_top"
+        		android:layout_marginBottom="@dimen/image_margin_bottom"
+        		android:layout_marginLeft="@dimen/image_margin_left"
+        		android:layout_marginRight="@dimen/image_margin_right"
+        		android:textSize="@dimen/body_text_size"/>
+    		
+    		<LinearLayout 
+    		    android:layout_width="match_parent"
+    		    android:layout_height="20dip"
+    		    android:orientation="horizontal"
+    		    android:layout_below="@id/langSetting">
+    		    
+    		</LinearLayout>
+        	
+        </RelativeLayout>
+        
+    </ScrollView>
+
+    
+
+</LinearLayout>

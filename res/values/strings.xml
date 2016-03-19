@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+ * Programmer: Mehdi Sohrabi
+ * Email: mehdok@gmail.com
+ * Hub Channel: https://github.com/mehdok
+ -->
+ 
+<resources>
+    
+    <string name="about_title">&#x06a9;&#x06cc;&#x0628;&#x0648;&#x0631;&#x062f;&#x0020;&#x0641;&#x0627;&#x0631;&#x0633;&#x06cc;&#x0020;&#x0686;&#x0627;&#x0686;&#x0627;&#x0020;&#x062d;&#x0631;&#x0641;&#x0647;&#x0020;&#x0627;&#x06cc;</string>
+    <string name="about_text">&#x0627;&#x0648;&#x0644;&#x06cc;&#x0646;&#x0020;&#x06a9;&#x06cc;&#x0628;&#x0648;&#x0631;&#x062f;&#x0020;&#x0641;&#x0627;&#x0631;&#x0633;&#x06cc;&#x0020;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x06af;&#x0648;&#x0634;&#x06cc;&#x0020;&#x0048;&#x0054;&#x0043;&#x0020;&#x0063;&#x0068;&#x0061;&#x0063;&#x0068;&#x0061;&#x0648;&#x0633;&#x0627;&#x06cc;&#x0631;&#x0020;&#x06af;&#x0648;&#x0634;&#x06cc;&#x0020;&#x0647;&#x0627;&#x06cc;&#x0020;&#x0628;&#x0627;&#x0020;&#x06a9;&#x06cc;&#x0628;&#x0648;&#x0631;&#x062f;&#x0020;&#x0641;&#x06cc;&#x0632;&#x06cc;&#x06a9;&#x06cc;&#x060c;&#x0020;&#x0628;&#x0627;&#x0020;&#x0642;&#x0627;&#x0628;&#x0644;&#x06cc;&#x062a;&#x0020;&#x062a;&#x0627;&#x06cc;&#x067e;&#x0020;&#x062a;&#x0645;&#x0627;&#x0645;&#x06cc;&#x0020;&#x062d;&#x0631;&#x0648;&#x0641;&#x0020;&#x0641;&#x0627;&#x0631;&#x0633;&#x06cc;&#x0020;&#x062a;&#x0648;&#x0633;&#x0637;&#x0020;&#x06a9;&#x06cc;&#x0628;&#x0648;&#x0631;&#x062f;&#x0020;&#x0633;&#x062e;&#x062a;&#x0020;&#x0627;&#x0641;&#x0632;&#x0627;&#x0631;&#x06cc;&#x0020;&#x06af;&#x0648;&#x0634;&#x06cc;&#x0020;&#x0648;&#x0020;&#x0627;&#x0645;&#x06a9;&#x0627;&#x0646;&#x0020;&#x062a;&#x063a;&#x06cc;&#x06cc;&#x0631;&#x0020;&#x0645;&#x06a9;&#x0627;&#x0646;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;&#x0020;&#x0628;&#x0647;&#x0020;&#x0635;&#x0648;&#x0631;&#x062a;&#x0020;&#x062f;&#x0633;&#x062a;&#x06cc;</string>
+	<string name="about_version">Version 1.6</string>
+	<string name="about_copyright">CopyRight &#x00A9; 2013-2014 Mehdi Sohrabi</string>
+    
+    <string name="app_name">Chacha Persian Keyboard Pro</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+    
+    <string name="ime_name">Chacha Persian Keyboard</string>
+    <string name="about">About</string>    
+    <string name="about_summery">About Chacha Persian Keyboard Pro</string>
+    <string name="keymap">Key Map</string>
+    <string name="keymap_summery">Key Combination For Extra Words</string>
+    <string name="preferences_label">Mehdok Persian Keyboard For Chacha</string>
+    <string name="about_me"> CopyRight &#x00A9; 2013 &#8211; 2014 Mehdi Sohrabi\n\n Version 1.6\n\n Send Bug Report and Idea To <a href="mailto:mehdok@ymail.com">MEHDOK</a></string>
+    <string name="key_combination"> shift + p  &#8212;> &#x0686;\nshift + f  &#8212;> &#x067E;\nshift + n  &#8212;> &#x0698;\nshift +  .  &#8212;> &#x06AF;\nshift + h &#8212;> &#x0622;\nshift + (&#x0637;)  &#8212;> &#x003F;\n&#x0073;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x0626;&#x0020;&#x0020;&#x003c;&#8212;&#x0020;&#x06cc;\n&#x0073;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x0624;&#x003c;&#8212;&#x0648;\nshift + space &#8212;&#x003e; . </string>
+    
+    <string name="word_separators">\u0020.\u060C,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    
+    
+    <string name="keyboard_activation">&#x0641;&#x0639;&#x0627;&#x0644;&#x0020;&#x0633;&#x0627;&#x0632;&#x06cc;&#x0020;&#x06a9;&#x06cc;&#x0628;&#x0648;&#x0631;&#x062f;</string>
+    <string name="page1_step1">&#x0031;&#x0029;&#x0020;&#x0627;&#x0628;&#x062a;&#x062f;&#x0627;&#x0020;&#x0628;&#x0647;&#x0020;&#x0642;&#x0633;&#x0645;&#x062a;&#x0020;&#x062a;&#x0646;&#x0638;&#x06cc;&#x0645;&#x0627;&#x062a;&#x0020;&#x06af;&#x0648;&#x0634;&#x06cc;&#x0020;&#x0628;&#x0631;&#x0648;&#x06cc;&#x062f;</string>
+    <string name="page1_step2">&#x0032;&#x0029;&#x0020;&#x06af;&#x0632;&#x06cc;&#x0646;&#x0647;&#x0020;&#x006c;&#x0061;&#x006e;&#x0067;&#x0075;&#x0061;&#x0067;&#x0065;&#x0020;&#x0026;&#x0020;&#x006b;&#x0065;&#x0079;&#x0062;&#x006f;&#x0061;&#x0072;&#x0064;&#x0020;&#x0020;&#x0631;&#x0627;&#x0020;&#x0627;&#x0646;&#x062a;&#x062e;&#x0627;&#x0628;&#x0020;&#x06a9;&#x0646;&#x06cc;&#x062f;</string>
+    <string name="page1_step3">&#x0033;&#x0029;&#x0020;&#x062f;&#x0631;&#x0020;&#x0635;&#x0641;&#x062d;&#x0647;&#x0020;&#x0628;&#x0627;&#x0632;&#x0020;&#x0634;&#x062f;&#x0647;&#x0020;&#x06af;&#x0632;&#x06cc;&#x0646;&#x0647;&#x0020;&#x0063;&#x0068;&#x0061;&#x0063;&#x0068;&#x0061;&#x0020;&#x0070;&#x0065;&#x0072;&#x0073;&#x0069;&#x0061;&#x006e;&#x0020;&#x006b;&#x0065;&#x0079;&#x0062;&#x006f;&#x0061;&#x0072;&#x0064;&#x0020;&#x0070;&#x0072;&#x006f;&#x0020;&#x0020;&#x0631;&#x0627;&#x0020;&#x062a;&#x06cc;&#x06a9;&#x0020;&#x0628;&#x0632;&#x0646;&#x06cc;&#x062f;</string>
+    <string name="page1_lastStep">&#x0628;&#x0627;&#x0020;&#x0627;&#x06cc;&#x0646;&#x0020;&#x06a9;&#x0627;&#x0631;&#x0020;&#x06a9;&#x06cc;&#x0628;&#x0648;&#x0631;&#x062f;&#x0020;&#x0641;&#x0639;&#x0627;&#x0644;&#x0020;&#x0634;&#x062f;&#x0647;&#x0020;&#x0648;&#x0020;&#x062f;&#x0631;&#x0020;&#x0647;&#x0646;&#x06af;&#x0627;&#x0645;&#x0020;&#x062a;&#x0627;&#x06cc;&#x067e;&#x0020;&#x0645;&#x06cc;&#x062a;&#x0648;&#x0627;&#x0646;&#x06cc;&#x062f;&#x0020;&#x0622;&#x0646;&#x0020;&#x0020;&#x0631;&#x0627;&#x0020;&#x0627;&#x0646;&#x062a;&#x062e;&#x0627;&#x0628;&#x0020;&#x06a9;&#x0646;&#x06cc;&#x062f;&#x060c;&#x0020;&#x0627;&#x06cc;&#x0646;&#x0020;&#x06a9;&#x0627;&#x0631;&#x0020;&#x062a;&#x0646;&#x0647;&#x0627;&#x0020;&#x06cc;&#x06a9;&#x0020;&#x0628;&#x0627;&#x0631;&#x0020;&#x0627;&#x0646;&#x062c;&#x0627;&#x0645;&#x0020;&#x0645;&#x06cc;&#x0634;&#x0648;&#x062f;&#x0020;&#x0648;&#x0020;&#x067e;&#x0633;&#x0020;&#x0627;&#x0632;&#x0020;&#x0627;&#x06cc;&#x0646;&#x0020;&#x0646;&#x06cc;&#x0627;&#x0632;&#x0020;&#x0628;&#x0647;&#x0020;&#x0627;&#x0646;&#x062c;&#x0627;&#x0645;&#x0020;&#x062f;&#x0648;&#x0628;&#x0627;&#x0631;&#x0647;&#x0020;&#x0622;&#x0646;&#x0020;&#x0646;&#x062e;&#x0648;&#x0627;&#x0647;&#x06cc;&#x062f;&#x0020;&#x062f;&#x0627;&#x0634;&#x062a;&#x002e;</string>
+    <string name="open_lan_setting">&#x0628;&#x0627;&#x0632;&#x0020;&#x06a9;&#x0631;&#x062f;&#x0646;&#x0020;&#x0635;&#x0641;&#x062d;&#x0647;&#x0020;&#x062a;&#x0646;&#x0638;&#x06cc;&#x0645;&#x0627;&#x062a;</string>
+    
+    <string name="choose_keyboard">&#x0627;&#x0646;&#x062a;&#x062e;&#x0627;&#x0628;&#x0020;&#x06a9;&#x06cc;&#x0628;&#x0648;&#x0631;&#x062f;</string>
+    <string name="page2_step1">&#x0031;&#x0029;&#x0020;&#x062f;&#x0631;&#x0020;&#x0647;&#x0631;&#x0020;&#x06a9;&#x0627;&#x062f;&#x0631;&#x06cc;&#x0020;&#x06a9;&#x0647;&#x0020;&#x0645;&#x0627;&#x06cc;&#x0644;&#x0020;&#x0628;&#x0647;&#x0020;&#x062a;&#x0627;&#x06cc;&#x067e;&#x0020;&#x0645;&#x062a;&#x0646;&#x0020;&#x0647;&#x0633;&#x062a;&#x06cc;&#x062f;&#x0020;&#x0028;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x0645;&#x062b;&#x0627;&#x0644;&#x0020;&#x06a9;&#x0627;&#x062f;&#x0631;&#x0020;&#x0627;&#x0633;&#x0020;&#x0627;&#x0645;&#x0020;&#x0627;&#x0633;&#x0029;&#x0020;&#x0627;&#x0646;&#x06af;&#x0634;&#x062a;&#x0020;&#x062e;&#x0648;&#x062f;&#x0020;&#x0631;&#x0627;&#x0020;&#x0628;&#x0631;&#x0020;&#x0631;&#x0648;&#x06cc;&#x0020;&#x0635;&#x0641;&#x062d;&#x0647;&#x0020;&#x0646;&#x06af;&#x0647;&#x0020;&#x062f;&#x0627;&#x0631;&#x06cc;&#x062f;&#x0020;&#x0028;&#x0644;&#x0627;&#x0646;&#x06af;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x06a9;&#x0029;&#x0020;&#x062a;&#x0627;&#x0020;&#x06af;&#x0632;&#x06cc;&#x0646;&#x0647;&#x0020;&#x0647;&#x0627;&#x06cc;&#x06cc;&#x0020;&#x0646;&#x0638;&#x06cc;&#x0631;&#x0020;&#x062a;&#x0635;&#x0648;&#x06cc;&#x0631;&#x0020;&#x0632;&#x06cc;&#x0631;&#x0020;&#x0638;&#x0627;&#x0647;&#x0631;&#x0020;&#x0634;&#x0648;&#x062f;</string>
+    <string name="page2_step2">&#x0032;&#x0029;&#x0020;&#x06af;&#x0632;&#x06cc;&#x0646;&#x0647;&#x0020;&#x0069;&#x006e;&#x0070;&#x0075;&#x0074;&#x0020;&#x006d;&#x0065;&#x0074;&#x0068;&#x006f;&#x0064;&#x0020;&#x0631;&#x0627;&#x0020;&#x0627;&#x0646;&#x062a;&#x062e;&#x0627;&#x0628;&#x0020;&#x06a9;&#x0646;&#x06cc;&#x062f;</string>
+    <string name="page2_step3">&#x0033;&#x0029;&#x0020;&#x062f;&#x0631;&#x0020;&#x06a9;&#x0627;&#x062f;&#x0631;&#x0020;&#x0628;&#x0627;&#x0632;&#x0020;&#x0634;&#x062f;&#x0647;&#x0020;&#x06af;&#x0632;&#x06cc;&#x0646;&#x0647;&#x0020;&#x0063;&#x0068;&#x0061;&#x0063;&#x0068;&#x0061;&#x0020;&#x0070;&#x0065;&#x0072;&#x0073;&#x0069;&#x0061;&#x006e;&#x0020;&#x006b;&#x0065;&#x0079;&#x0062;&#x006f;&#x0061;&#x0072;&#x0064;&#x0020;&#x0070;&#x0072;&#x006f;&#x0020;&#x0631;&#x0627;&#x0020;&#x0627;&#x0646;&#x062a;&#x062e;&#x0627;&#x0628;&#x0020;&#x06a9;&#x0646;&#x06cc;&#x062f;&#x002e;</string>
+    
+    <string name="work_keyboard">&#x06a9;&#x0627;&#x0631;&#x0020;&#x0628;&#x0627;&#x0020;&#x06a9;&#x06cc;&#x0628;&#x0648;&#x0631;&#x062f;</string>
+    <string name="page3_step1">&#x0031;&#x0029;&#x0020;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x062a;&#x0639;&#x0648;&#x06cc;&#x0636;&#x0020;&#x0632;&#x0628;&#x0627;&#x0646;&#x0020;&#x06a9;&#x06cc;&#x0628;&#x0648;&#x0631;&#x062f;&#x060c;&#x0020;&#x062f;&#x06a9;&#x0645;&#x0647;&#x0020;&#x006c;&#x006e;&#x0067;&#x0020;&#x0028;&#x002a;&#x0029;&#x0020;&#x0631;&#x0627;&#x0020;&#x0641;&#x0634;&#x0627;&#x0631;&#x0020;&#x062f;&#x0647;&#x06cc;&#x062f;&#x0020;&#x0028;&#x0646;&#x0648;&#x062a;&#x06cc;&#x0641;&#x06cc;&#x06a9;&#x06cc;&#x0634;&#x0646;&#x0020;&#x0645;&#x0631;&#x0628;&#x0648;&#x0637;&#x0020;&#x0628;&#x0647;&#x0020;&#x0632;&#x0628;&#x0627;&#x0646;&#x0020;&#x0646;&#x0645;&#x0627;&#x06cc;&#x0634;&#x0020;&#x062f;&#x0627;&#x062f;&#x0647;&#x0020;&#x0645;&#x06cc;&#x0634;&#x0648;&#x062f;&#x0029;</string>
+    <string name="page3_step2">&#x0032;&#x0029;&#x0020;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x062a;&#x0627;&#x06cc;&#x067e;&#x0020;&#x062d;&#x0631;&#x0648;&#x0641;&#x0020;&#x067e;&#x0020;&#x0686;&#x0020;&#x0698;&#x0020;&#x06af;&#x0020;&#x0627;&#x0632;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;&#x06cc;&#x0020;&#x062a;&#x0631;&#x06a9;&#x06cc;&#x0628;&#x06cc;&#x0020;&#x0632;&#x06cc;&#x0631;&#x0020;&#x0627;&#x0633;&#x062a;&#x0641;&#x0627;&#x062f;&#x0647;&#x0020;&#x0645;&#x06cc;&#x06a9;&#x0646;&#x06cc;&#x0645;&#x003a;\n\t\t&#x0686;&#x0020;&#x003a;&#x0020;&#x0073;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x0070;\n\t\t&#x067e;&#x0020;&#x003a;&#x0020;&#x0073;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x0066;\n\t\t&#x0698;&#x0020;&#x003a;&#x0020;&#x0073;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x006e;\n\t\t&#x06af;&#x0020;&#x003a;&#x0020;&#x0073;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x06a9;\n\t\t&#x0622;&#x0020;&#x003a;&#x0020;&#x0073;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x0068;\n\t\t&#x0073;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x0626;&#x0020;&#x0020;&#x003a;&#x0020;&#x06cc;\n\t\t&#x0073;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x0624;&#x0020;&#x003a;&#x0020;&#x0648;\n\t\t&#x0073;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x0020;&#x0073;&#x0070;&#x0061;&#x0063;&#x0065;&#x0020;&#x003a;&#x0020;&#x002e;</string>
+	<string name="page3_step3">&#x0633;&#x0627;&#x06cc;&#x0631;&#x0020;&#x062d;&#x0631;&#x0648;&#x0641;&#x0020;&#x0641;&#x0627;&#x0631;&#x0633;&#x06cc;&#x0020;&#x0628;&#x0631;&#x0020;&#x0627;&#x0633;&#x0627;&#x0633;&#x0020;&#x06a9;&#x06cc;&#x0628;&#x0648;&#x0631;&#x062f;&#x0020;&#x0639;&#x0631;&#x0628;&#x06cc;&#x0020;&#x067e;&#x06cc;&#x0634;&#x0641;&#x0631;&#x0636;&#x0020;&#x06af;&#x0648;&#x0634;&#x06cc;&#x0020;&#x0627;&#x0633;&#x062a;&#x060c;&#x0020;&#x0628;&#x0647;&#x0020;&#x0635;&#x0648;&#x0631;&#x062a;&#x0020;&#x0632;&#x06cc;&#x0631;&#x003a;</string>
+	
+	<string name="howToUse">&#x0631;&#x0627;&#x0647;&#x0646;&#x0645;&#x0627;&#x06cc;&#x0020;&#x0627;&#x0633;&#x062a;&#x0641;&#x0627;&#x062f;&#x0647;</string>
+	<string name="keyMapping">&#x0646;&#x06af;&#x0627;&#x0634;&#x062a;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;</string>
+	<string name="aboutApp">&#x062f;&#x0631;&#x0628;&#x0627;&#x0631;&#x0647;&#x0020;&#x0627;&#x067e;&#x0644;&#x06cc;&#x06a9;&#x06cc;&#x0634;&#x0646;</string>
+	
+	<string name="guide_page1Title">&#x0646;&#x06af;&#x0627;&#x0634;&#x062a;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;&#x0020;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x062d;&#x0631;&#x0648;&#x0641;&#x0020;&#x0641;&#x0627;&#x0631;&#x0633;&#x06cc;</string>
+	
+	<string name="change_key_dialog_text1">&#x0644;&#x0637;&#x0641;&#x0627;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0020;&#x0645;&#x0648;&#x0631;&#x062f;&#x0646;&#x0638;&#x0631;&#x0020;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x062d;&#x0631;&#x0641;</string>
+    <string name="change_key_dialog_text2">&#x0631;&#x0627;&#x0020;&#x0641;&#x0634;&#x0627;&#x0631;&#x0020;&#x062f;&#x0647;&#x06cc;&#x062f;</string>
+    <string name="change_key_dialog_currKey">&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0020;&#x0641;&#x0639;&#x0644;&#x06cc;</string>
+    <string name="ok">&#x062a;&#x0627;&#x06cc;&#x06cc;&#x062f;</string>
+    <string name="cancel">&#x06a9;&#x0646;&#x0633;&#x0644;</string>
+    
+    <string name="default_key">&#x062a;&#x0646;&#x0638;&#x06cc;&#x0645;&#x0627;&#x062a;&#x0020;&#x067e;&#x06cc;&#x0634;&#x0020;&#x0641;&#x0631;&#x0636;</string>
+    <string name="reset_preferences_message">&#x062a;&#x0646;&#x0638;&#x06cc;&#x0645;&#x0627;&#x062a;&#x0020;&#x0628;&#x0647;&#x0020;&#x062d;&#x0627;&#x0644;&#x062a;&#x0020;&#x067e;&#x06cc;&#x0634;&#x0020;&#x0641;&#x0631;&#x0636;&#x0020;&#x0628;&#x0631;&#x06af;&#x0634;&#x062a;&#x060c;&#x0020;&#x0644;&#x0637;&#x0641;&#x0627;&#x0020;&#x0627;&#x067e;&#x0644;&#x06cc;&#x06a9;&#x06cc;&#x0634;&#x0646;&#x0020;&#x0631;&#x0627;&#x0020;&#x0628;&#x0633;&#x062a;&#x0647;&#x0020;&#x0648;&#x0020;&#x0645;&#x062c;&#x062f;&#x062f;&#x0627;&#x0020;&#x0628;&#x0627;&#x0632;&#x0020;&#x0646;&#x0645;&#x0627;&#x06cc;&#x06cc;&#x062f;</string>
+    
+    <string name="specail_keymappage_title">&#x0646;&#x06af;&#x0627;&#x0634;&#x062a;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;&#x0020;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;&#x06cc;&#x0020;&#x0648;&#x06cc;&#x0698;&#x0647;</string>
+    <string name="english_keymappage_title">&#x0646;&#x06af;&#x0627;&#x0634;&#x062a;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;&#x0020;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x062d;&#x0631;&#x0648;&#x0641;&#x0020;&#x0627;&#x0646;&#x06af;&#x0644;&#x06cc;&#x0633;&#x06cc;</string>
+    <string name="symbol_keymappage_title">&#x0646;&#x06af;&#x0627;&#x0634;&#x062a;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;&#x0020;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x06a9;&#x0627;&#x0631;&#x0627;&#x06a9;&#x062a;&#x0631;&#x0647;&#x0627;&#x06cc;&#x0020;&#x062e;&#x0627;&#x0635;</string>
+    <string name="number_keymappage_title">&#x0646;&#x06af;&#x0627;&#x0634;&#x062a;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;&#x0020;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x0627;&#x0639;&#x062f;&#x0627;&#x062f;</string>
+    
+    <!-- persian alphabet -->    
+    <string name="ALEF_TEXT">&#x0627;&#x0644;&#x0641;</string>
+    <string name="AA_TEXT">&#x0622;</string>
+    <string name="AA_TEXT2">&#x0053;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x0627;&#x0644;&#x0641;</string>
+    <string name="BE_TEXT">&#x0628;</string>
+    <string name="PE_TEXT">&#x067E;</string>
+    <string name="PE_TEXT2">&#x0053;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x0628;</string>
+    <string name="TE_TEXT">&#x062A;</string>
+    <string name="SE_TEXT">&#x062B;</string>
+    <string name="JIM_TEXT">&#x062C;</string>
+    <string name="CHE_TEXT">&#x0686;</string>
+    <string name="CHE_TEXT2">&#x0053;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x062c;</string>
+    <string name="HE_TEXT">&#x062D;</string>
+    <string name="KHE_TEXT">&#x062E;</string>
+    <string name="DAL_TEXT">&#x062F;</string>
+    <string name="ZAL_TEXT">&#x0630;</string>
+    <string name="RE_TEXT">&#x0631;</string>
+    <string name="ZE_TEXT">&#x0632;</string>
+    <string name="ZHE_TEXT">&#x0698;</string>
+    <string name="ZHE_TEXT2">&#x0053;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x0632;</string>
+    <string name="SIN_TEXT">&#x0633;</string>
+    <string name="SHIN_TEXT">&#x0634;</string>
+    <string name="SAD_TEXT">&#x0635;</string>
+    <string name="ZAD_TEXT">&#x0636;</string>
+    <string name="TA_TEXT">&#x0637;</string>
+    <string name="ZA_TEXT">&#x0638;</string>
+    <string name="EEIN_TEXT">&#x0639;</string>
+    <string name="GHEIN_TEXT">&#x063A;</string>
+    <string name="FAV_TEXT">&#x0641;</string>
+    <string name="GHAF_TEXT">&#x0642;</string>
+    <string name="KAF_TEXT">&#x0643;</string>
+    <string name="GAF_TEXT">&#x06AF;</string>
+    <string name="GAF_TEXT2">&#x0053;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x06a9;</string>
+    <string name="LAM_TEXT">&#x0644;</string>
+    <string name="MIM_TEXT">&#x0645;</string>
+    <string name="NON_TEXT">&#x0646;</string>
+    <string name="VAV_TEXT">&#x0648;</string>
+    <string name="VAVE_TEXT">&#x0624;</string>
+    <string name="VAVE_TEXT2">&#x0073;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x0648;</string>
+    <string name="HA_TEXT">&#x0647;</string>
+    <string name="YA_TEXT">&#x0649;</string>
+    <string name="YAE_TEXT">&#x0626;</string>
+    <string name="YAE_TEXT2">&#x0073;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x06cc;</string>
+    <string name="COMMA_TEXT">&#x060C;</string>
+    <string name="DOT_TEXT">&#x002e;</string>
+    <string name="DOT_TEXT2">&#x0073;&#x0068;&#x0069;&#x0066;&#x0074;&#x0020;&#x002b;&#x0020;&#x0073;&#x0070;&#x0061;&#x0063;&#x0065;</string>
+    
+    <!-- persian TAG -->
+    <string name="ALEF_FA_TAG">ALEF_FA</string>
+    <string name="AA_FA_TAG">AA_FA</string>
+    <string name="BE_FA_TAG">BE_FA</string>
+    <string name="PE_FA_TAG">PE_FA</string>
+    <string name="TE_FA_TAG">TE_FA</string>
+    <string name="SE_FA_TAG">SE_FA</string>
+    <string name="JIM_FA_TAG">JIM_FA</string>
+    <string name="CHE_FA_TAG">CHE_FA</string>
+    <string name="HE_FA_TAG">HE_FA</string>
+    <string name="KHE_FA_TAG">KHE_FA</string>
+    <string name="DAL_FA_TAG">DAL_FA</string>
+    <string name="ZAL_FA_TAG">ZAL_FA</string>
+    <string name="RE_FA_TAG">RE_FA</string>
+    <string name="ZE_FA_TAG">ZE_FA</string>
+    <string name="ZHE_FA_TAG">ZHE_FA</string>
+    <string name="SIN_FA_TAG">SIN_FA</string>
+    <string name="SHIN_FA_TAG">SHIN_FA</string>
+    <string name="SAD_FA_TAG">SAD_FA</string>
+    <string name="ZAD_FA_TAG">ZAD_FA</string>
+    <string name="TA_FA_TAG">TA_FA</string>
+    <string name="ZA_FA_TAG">ZA_FA</string>
+    <string name="EEIN_FA_TAG">EEIN_FA</string>
+    <string name="GHEIN_FA_TAG">GHEIN_FA</string>
+    <string name="FAV_FA_TAG">FAV_FA</string>
+    <string name="GHAF_FA_TAG">GHAF_FA</string>
+    <string name="KAF_FA_TAG">KAF_FA</string>
+    <string name="GAF_FA_TAG">GAF_FA</string>
+    <string name="LAM_FA_TAG">LAM_FA</string>
+    <string name="MIM_FA_TAG">MIM_FA</string>
+    <string name="NON_FA_TAG">NON_FA</string>
+    <string name="VAV_FA_TAG">VAV_FA</string>
+    <string name="VAVE_FA_TAG">VAVE_FA</string>
+    <string name="HA_FA_TAG">HA_FA</string>
+    <string name="YA_FA_TAG">YA_FA</string>
+    <string name="YAE_FA_TAG">YAE_FA</string>
+    <string name="COMMA_FA_TAG">COMMA_FA</string>
+    <string name="DOT_FA_TAG">DOT_FA</string>
+    
+    <!-- special key text -->
+    <string name="DELETE_TEXT">Delete</string>
+    <string name="SPACE_TEXT">Space</string>
+    <string name="ENTER_TEXT">Enter</string>
+    <string name="LANGUAGE_TEXT">Language</string>
+    <string name="SHIFT_TEXT">Shift</string>
+    <string name="ALT_TEXT">Alt (Fn)</string>
+    
+    <!-- special key tag -->
+    <string name="DELETE_TAG">DELETE</string>
+    <string name="SPACE_TAG">SPACE</string>
+    <string name="ENTER_TAG">ENTER</string>
+    <string name="LANGUAGE_TAG">LANGUAGE</string>
+    <string name="SHIFT_TAG">SHIFT</string>
+    <string name="ALT_TAG">ALT</string>
+    
+    <!-- english alphabet -->
+    <string name="A_TEXT">A</string>
+    <string name="B_TEXT">B</string>
+    <string name="C_TEXT">C</string>
+    <string name="D_TEXT">D</string>
+    <string name="E_TEXT">E</string>
+    <string name="F_TEXT">F</string>
+    <string name="G_TEXT">G</string>
+    <string name="H_TEXT">H</string>
+    <string name="I_TEXT">I</string>
+    <string name="J_TEXT">J</string>
+    <string name="K_TEXT">K</string>
+    <string name="L_TEXT">L</string>
+    <string name="M_TEXT">M</string>
+    <string name="N_TEXT">N</string>
+    <string name="O_TEXT">O</string>
+    <string name="P_TEXT">P</string>
+    <string name="Q_TEXT">Q</string>
+    <string name="R_TEXT">R</string>
+    <string name="S_TEXT">S</string>
+    <string name="T_TEXT">T</string>
+    <string name="U_TEXT">U</string>
+    <string name="V_TEXT">V</string>
+    <string name="W_TEXT">W</string>
+    <string name="X_TEXT">X</string>
+    <string name="Y_TEXT">Y</string>
+    <string name="Z_TEXT">Z</string>
+    <string name="QUECHAR_TEXT">\&#x003f;</string>
+    <string name="PERIOD_TEXT">.</string>
+    
+    <!-- english tag -->
+    <string name="A_EN_TAG">A_EN</string>
+    <string name="B_EN_TAG">B_EN</string>
+    <string name="C_EN_TAG">C_EN</string>
+    <string name="D_EN_TAG">D_EN</string>
+    <string name="E_EN_TAG">E_EN</string>
+    <string name="F_EN_TAG">F_EN</string>
+    <string name="G_EN_TAG">G_EN</string>
+    <string name="H_EN_TAG">H_EN</string>
+    <string name="I_EN_TAG">I_EN</string>
+    <string name="J_EN_TAG">J_EN</string>
+    <string name="K_EN_TAG">K_EN</string>
+    <string name="L_EN_TAG">L_EN</string>
+    <string name="M_EN_TAG">M_EN</string>
+    <string name="N_EN_TAG">N_EN</string>
+    <string name="O_EN_TAG">O_EN</string>
+    <string name="P_EN_TAG">P_EN</string>
+    <string name="Q_EN_TAG">Q_EN</string>
+    <string name="R_EN_TAG">R_EN</string>
+    <string name="S_EN_TAG">S_EN</string>
+    <string name="T_EN_TAG">T_EN</string>
+    <string name="U_EN_TAG">U_EN</string>
+    <string name="V_EN_TAG">V_EN</string>
+    <string name="W_EN_TAG">W_EN</string>
+    <string name="X_EN_TAG">X_EN</string>
+    <string name="Y_EN_TAG">Y_EN</string>
+    <string name="Z_EN_TAG">Z_EN</string>
+    <string name="QUECHAR_EN_TAG">QUECHAR_EN</string>
+    <string name="PERIOD_EN_TAG">PERIOD_EN</string>
+    
+    <!-- symbol key -->
+	<string name="S_LEFT_PARENTHESIS_TEXT">&#x0028;</string>
+	<string name="S_N_1_TEXT">&#x0031;</string>
+	<string name="S_N_2_TEXT">&#x0032;</string>
+	<string name="S_N_3_TEXT">&#x0033;</string>
+	<string name="S_EXCALAMATION_TEXT">&#x0021;</string>
+	<string name="S_AT_SIGN_TEXT">\&#x0040;</string>
+	<string name="S_DOLLAR_TEXT">&#x0024;</string>
+	<string name="S_PERCENT_TEXT">&#x0025;</string>
+	<string name="S_AMPERSAND_TEXT">&#x0026;</string>
+	<string name="S_TILDE_TEXT">&#x007E;</string>
+	<string name="S_RIGHT_PARENTHESIS_TEXT">&#x0029;</string>
+	<string name="S_N_4_TEXT">&#x0034;</string>
+	<string name="S_N_5_TEXT">&#x0035;</string>
+	<string name="S_N_6_TEXT">&#x0036;</string>
+	<string name="S_SLASH_TEXT">&#x002F;</string>
+	<string name="S_UNDERLINE_TEXT">&#x005F;</string>
+	<string name="S_MINUS_TEXT">&#x002D;</string>
+	<string name="S_PLUS_TEXT">&#x002B;</string>
+	<string name="S_EQUAL_TEXT">&#x003D;</string>
+	<string name="S_N_7_TEXT">&#x0037;</string>
+	<string name="S_N_8_TEXT">&#x0038;</string>
+	<string name="S_N_9_TEXT">&#x0039;</string>
+	<string name="S_EURO_TEXT">&#x007C;</string>
+	<string name="S_APOSTROPHE_TEXT">\&#x0027;</string>
+	<string name="S_QUOTATION_TEXT">\&#x0022;</string>
+	<string name="S_COLON_TEXT">&#x003A;</string>
+	<string name="S_SEMICOLON_TEXT">&#x003B;</string>
+	<string name="S_ASTERISK_TEXT">&#x002A;</string>
+	<string name="S_N_0_TEXT">&#x0030;</string>
+	<string name="S_HASHTAG_TEXT">&#x0023;</string>
+	
+	<!-- symbol tag -->
+	<string name="S_LEFT_PARENTHESIS_TAG">S_LEFT_PARENTHESIS</string>
+	<string name="S_N_1_TAG">S_N_1</string>
+	<string name="S_N_2_TAG">S_N_2</string>
+	<string name="S_N_3_TAG">S_N_3</string>
+	<string name="S_EXCALAMATION_TAG">S_EXCALAMATION</string>
+	<string name="S_AT_SIGN_TAG">S_AT_SIGN</string>
+	<string name="S_DOLLAR_TAG">S_DOLLAR</string>
+	<string name="S_PERCENT_TAG">S_PERCENT</string>
+	<string name="S_AMPERSAND_TAG">S_AMPERSAND</string>
+	<string name="S_TILDE_TAG">S_TILDE</string>
+	<string name="S_RIGHT_PARENTHESIS_TAG">S_RIGHT_PARENTHESIS</string>
+	<string name="S_N_4_TAG">S_N_4</string>
+	<string name="S_N_5_TAG">S_N_5</string>
+	<string name="S_N_6_TAG">S_N_6</string>
+	<string name="S_SLASH_TAG">S_SLASH</string>
+	<string name="S_UNDERLINE_TAG">S_UNDERLINE</string>
+	<string name="S_MINUS_TAG">S_MINUS</string>
+	<string name="S_PLUS_TAG">S_PLUS</string>
+	<string name="S_EQUAL_TAG">S_EQUAL</string>
+	<string name="S_N_7_TAG">S_N_7</string>
+	<string name="S_N_8_TAG">S_N_8</string>
+	<string name="S_N_9_TAG">S_N_9</string>
+	<string name="S_EURO_TAG">S_EURO</string>
+	<string name="S_APOSTROPHE_TAG">S_APOSTROPHE</string>
+	<string name="S_QUOTATION_TAG">S_QUOTATION</string>
+	<string name="S_COLON_TAG">S_COLON</string>
+	<string name="S_SEMICOLON_TAG">S_SEMICOLON</string>
+	<string name="S_ASTERISK_TAG">S_ASTERISK</string>
+	<string name="S_N_0_TAG">S_N_0</string>
+	<string name="S_HASHTAG_TAG">S_HASHTAG</string>
+	
+	<!-- number key -->
+	<string name="N_1_TEXT">1</string>
+	<string name="N_2_TEXT">2</string>
+	<string name="N_3_TEXT">3</string>
+	<string name="N_4_TEXT">4</string>
+	<string name="N_5_TEXT">5</string>
+	<string name="N_6_TEXT">6</string>
+	<string name="N_7_TEXT">7</string>
+	<string name="N_8_TEXT">8</string>
+	<string name="N_9_TEXT">9</string>
+	<string name="N_0_TEXT">0</string>
+	<string name="N_STAR_TEXT">*</string>
+	<string name="N_HASHTAG_TEXT">#</string>
+	<string name="N_DOT_TEXT">.</string>
+	<string name="N_PLUS_TEXT">+</string>
+	<string name="N_MINUS_TEXT">-</string>
+	
+	<!-- number tag -->
+	<string name="N_1_TAG">N_1</string>
+	<string name="N_2_TAG">N_2</string>
+	<string name="N_3_TAG">N_3</string>
+	<string name="N_4_TAG">N_4</string>
+	<string name="N_5_TAG">N_5</string>
+	<string name="N_6_TAG">N_6</string>
+	<string name="N_7_TAG">N_7</string>
+	<string name="N_8_TAG">N_8</string>
+	<string name="N_9_TAG">N_9</string>
+	<string name="N_0_TAG">N_0</string>
+	<string name="N_STAR_TAG">N_STAR</string>
+	<string name="N_HASHTAG_TAG">N_HASHTAG</string>
+	<string name="N_DOT_TAG">N_DOT</string>
+	<string name="N_PLUS_TAG">N_PLUS</string>
+	<string name="N_MINUS_TAG">N_MINUS</string>
+	
+	
+	<string name="keymap_guide_text1">&#x0628;&#x0639;&#x062f;&#x0020;&#x0627;&#x0632;&#x0020;&#x062a;&#x063a;&#x06cc;&#x06cc;&#x0631;&#x0020;&#x0645;&#x06a9;&#x0627;&#x0646;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;&#x060c;&#x0020;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x0627;&#x0639;&#x0645;&#x0627;&#x0644;&#x0020;&#x062a;&#x063a;&#x06cc;&#x06cc;&#x0631;&#x0627;&#x062a;&#x0020;&#x0628;&#x0627;&#x06cc;&#x062f;&#x0020;&#x06a9;&#x06cc;&#x0628;&#x0648;&#x0631;&#x062f;&#x0020;&#x0631;&#x0627;&#x0020;&#x0645;&#x062c;&#x062f;&#x062f;&#x0627;&#x0020;&#x0627;&#x0646;&#x062a;&#x062e;&#x0627;&#x0628;&#x0020;&#x06a9;&#x0646;&#x06cc;&#x062f;&#x0020;&#x0648;&#x0020;&#x06cc;&#x0627;&#x0020;&#x06af;&#x0648;&#x0634;&#x06cc;&#x0020;&#x062e;&#x0648;&#x062f;&#x0020;&#x0631;&#x0627;&#x0020;&#x0631;&#x06cc;&#x0020;&#x0627;&#x0633;&#x062a;&#x0627;&#x0631;&#x062a;&#x0020;&#x0646;&#x0645;&#x0627;&#x06cc;&#x06cc;&#x062f;</string>
+	<string name="keymap_guide_text2">\t\t&#x0627;&#x06cc;&#x0646;&#x0020;&#x0642;&#x0633;&#x0645;&#x062a;&#x0020;&#x0628;&#x0647;&#x0020;&#x0634;&#x0645;&#x0627;&#x0020;&#x0627;&#x06cc;&#x0646;&#x0020;&#x0627;&#x0645;&#x06a9;&#x0627;&#x0646;&#x0020;&#x0631;&#x0627;&#x0020;&#x0645;&#x06cc;&#x0020;&#x062f;&#x0647;&#x062f;&#x0020;&#x06a9;&#x0647;&#x0020;&#x062d;&#x0631;&#x0648;&#x0641;&#x0020;&#x0645;&#x062e;&#x062a;&#x0644;&#x0641;&#x0020;&#x0631;&#x0627;&#x0020;&#x0628;&#x0647;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;&#x0020;&#x0646;&#x0633;&#x0628;&#x062a;&#x0020;&#x062f;&#x0647;&#x06cc;&#x062f;</string>
+	<string name="keymap_guide_text3">\t\t&#x062f;&#x0631;&#x0020;&#x0628;&#x0631;&#x062e;&#x06cc;&#x0020;&#x0631;&#x0627;&#x0645;&#x0020;&#x0647;&#x0627;&#x06cc;&#x0020;&#x0627;&#x0646;&#x062f;&#x0631;&#x0648;&#x06cc;&#x062f;&#x0020;&#x06a9;&#x062f;&#x06cc;&#x0020;&#x06a9;&#x0647;&#x0020;&#x0628;&#x0647;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0020;&#x062a;&#x063a;&#x06cc;&#x06cc;&#x0631;&#x0020;&#x0632;&#x0628;&#x0627;&#x0646;&#x0020;&#x0646;&#x0633;&#x0628;&#x062a;&#x0020;&#x062f;&#x0627;&#x062f;&#x0647;&#x0020;&#x0634;&#x062f;&#x0647;&#x0020;&#x0645;&#x062a;&#x0641;&#x0627;&#x0648;&#x062a;&#x0020;&#x0627;&#x0633;&#x062a;&#x060c;&#x0020;&#x067e;&#x0633;&#x0020;&#x062f;&#x0631;&#x0020;&#x0635;&#x0648;&#x0631;&#x062a;&#x06cc;&#x0020;&#x06a9;&#x0647;&#x0020;&#x0642;&#x0627;&#x062f;&#x0631;&#x0020;&#x0628;&#x0647;&#x0020;&#x062a;&#x063a;&#x06cc;&#x06cc;&#x0631;&#x0020;&#x0632;&#x0628;&#x0627;&#x0646;&#x0020;&#x0646;&#x06cc;&#x0633;&#x062a;&#x06cc;&#x062f;&#x0020;&#x0645;&#x06cc;&#x062a;&#x0648;&#x0627;&#x0646;&#x06cc;&#x062f;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0020;&#x0646;&#x0633;&#x0628;&#x062a;&#x0020;&#x062f;&#x0627;&#x062f;&#x0647;&#x0020;&#x0634;&#x062f;&#x0647;&#x0020;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x062a;&#x063a;&#x06cc;&#x06cc;&#x0631;&#x0020;&#x0632;&#x0628;&#x0627;&#x0646;&#x0020;&#x0631;&#x0627;&#x0020;&#x0639;&#x0648;&#x0636;&#x0020;&#x06a9;&#x0646;&#x06cc;&#x062f;</string>
+	<string name="keymap_guide_text4">\t\t&#x0627;&#x06cc;&#x0646;&#x0020;&#x0627;&#x067e;&#x0644;&#x06cc;&#x06a9;&#x06cc;&#x0634;&#x0646;&#x0020;&#x062f;&#x0631;&#x0020;&#x0627;&#x0635;&#x0644;&#x0020;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x06af;&#x0648;&#x0634;&#x06cc;&#x0020;&#x0627;&#x0686;&#x0020;&#x062a;&#x06cc;&#x0020;&#x0633;&#x06cc;&#x0020;&#x0686;&#x0627;&#x0686;&#x0627;&#x0020;&#x0637;&#x0631;&#x0627;&#x062d;&#x06cc;&#x0020;&#x0648;&#x0020;&#x0633;&#x0627;&#x062e;&#x062a;&#x0647;&#x0020;&#x0634;&#x062f;&#x0647;&#x0020;&#x0648;&#x0020;&#x062d;&#x0631;&#x0648;&#x0641;&#x0020;&#x0645;&#x0637;&#x0627;&#x0628;&#x0642;&#x0020;&#x0628;&#x0627;&#x0020;&#x0627;&#x06cc;&#x0646;&#x0020;&#x06af;&#x0648;&#x0634;&#x06cc;&#x0020;&#x0628;&#x0647;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;&#x0020;&#x0646;&#x0633;&#x0628;&#x062a;&#x0020;&#x062f;&#x0627;&#x062f;&#x0647;&#x0020;&#x0634;&#x062f;&#x0647;&#x0020;&#x0627;&#x0633;&#x062a;&#x002e;&#x0020;&#x0627;&#x0645;&#x0627;&#x0020;&#x0628;&#x0627;&#x0020;&#x0627;&#x0633;&#x062a;&#x0641;&#x0627;&#x062f;&#x0647;&#x0020;&#x0627;&#x0632;&#x0020;&#x0627;&#x0645;&#x06a9;&#x0627;&#x0646;&#x0020;&#x0646;&#x06af;&#x0627;&#x0634;&#x062a;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;&#x060c;&#x0020;&#x0627;&#x0641;&#x0631;&#x0627;&#x062f;&#x0020;&#x0628;&#x0627;&#x0020;&#x0633;&#x0627;&#x06cc;&#x0631;&#x0020;&#x06af;&#x0648;&#x0634;&#x06cc;&#x0647;&#x0627;&#x06cc;&#x0020;&#x062f;&#x0627;&#x0631;&#x0627;&#x06cc;&#x0020;&#x06a9;&#x06cc;&#x0628;&#x0648;&#x0631;&#x062f;&#x0020;&#x0641;&#x06cc;&#x0632;&#x06cc;&#x06a9;&#x06cc;&#x0020;&#x0646;&#x06cc;&#x0632;&#x0020;&#x0645;&#x06cc;&#x062a;&#x0648;&#x0627;&#x0646;&#x0646;&#x062f;&#x0020;&#x0627;&#x0632;&#x0020;&#x0627;&#x06cc;&#x0646;&#x0020;&#x06a9;&#x06cc;&#x0628;&#x0648;&#x0631;&#x062f;&#x0020;&#x0627;&#x0633;&#x062a;&#x0641;&#x0627;&#x062f;&#x0647;&#x0020;&#x06a9;&#x0646;&#x0646;&#x062f;</string>
+	<string name="keymap_guide_text5">\t\t&#x062a;&#x0648;&#x062c;&#x0647;&#x0020;&#x062f;&#x0627;&#x0634;&#x062a;&#x0647;&#x0020;&#x0628;&#x0627;&#x0634;&#x06cc;&#x062f;&#x0020;&#x06a9;&#x0647;&#x0020;&#x0639;&#x0645;&#x0644;&#x0020;&#x0646;&#x0633;&#x0628;&#x062a;&#x0020;&#x062f;&#x0627;&#x062f;&#x0646;&#x0020;&#x06a9;&#x0644;&#x06cc;&#x062f;&#x0647;&#x0627;&#x0020;&#x0628;&#x0647;&#x0020;&#x062d;&#x0631;&#x0648;&#x0641;&#x0020;&#x0645;&#x062a;&#x0641;&#x0627;&#x0648;&#x062a;&#x0020;&#x0627;&#x0632;&#x0020;&#x0644;&#x062d;&#x0627;&#x0638;&#x0020;&#x0628;&#x0631;&#x0646;&#x0627;&#x0645;&#x0647;&#x0020;&#x0646;&#x0648;&#x06cc;&#x0633;&#x06cc;&#x0020;&#x0639;&#x0645;&#x0644;&#x06cc;&#x0020;&#x067e;&#x06cc;&#x0686;&#x06cc;&#x062f;&#x0647;&#x0020;&#x0648;&#x0020;&#x0628;&#x0647;&#x0020;&#x0647;&#x0645;&#x0627;&#x0646;&#x0020;&#x0646;&#x0633;&#x0628;&#x062a;&#x0020;&#x0645;&#x0633;&#x062a;&#x0639;&#x062f;&#x0020;&#x062e;&#x0637;&#x0627;&#x0633;&#x062a;&#x002e;&#x0020;&#x067e;&#x0633;&#x0020;&#x062f;&#x0631;&#x0020;&#x0635;&#x0648;&#x0631;&#x062a;&#x06cc;&#x0020;&#x06a9;&#x0647;&#x0020;&#x0628;&#x062e;&#x0634;&#x06cc;&#x0020;&#x0627;&#x0632;&#x0020;&#x0627;&#x06cc;&#x0646;&#x0020;&#x0642;&#x0633;&#x0645;&#x062a;&#x0020;&#x0628;&#x0647;&#x0020;&#x062f;&#x0631;&#x0633;&#x062a;&#x06cc;&#x0020;&#x0639;&#x0645;&#x0644;&#x0020;&#x0646;&#x06a9;&#x0631;&#x062f;&#x060c;&#x0020;&#x0645;&#x0634;&#x06a9;&#x0644;&#x0020;&#x0631;&#x0627;&#x0020;&#x0628;&#x0647;&#x0020;&#x0635;&#x0648;&#x0631;&#x062a;&#x0020;&#x0645;&#x0641;&#x0635;&#x0644;&#x0020;&#x0628;&#x0631;&#x0627;&#x06cc;&#x0020;&#x0628;&#x0646;&#x062f;&#x0647;&#x0020;&#x0627;&#x06cc;&#x0645;&#x06cc;&#x0644;&#x0020;&#x06a9;&#x0646;&#x06cc;&#x062f;&#x0020;&#x062a;&#x0627;&#x0020;&#x0647;&#x0631;&#x0686;&#x0647;&#x0020;&#x0633;&#x0631;&#x06cc;&#x0639;&#x062a;&#x0631;&#x0020;&#x0645;&#x0634;&#x06a9;&#x0644;&#x0020;&#x0628;&#x0631;&#x0637;&#x0631;&#x0641;&#x0020;&#x0634;&#x0648;&#x062f;</string>
+	
+	    
+    
+    
+    
+</resources>

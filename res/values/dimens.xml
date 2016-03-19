@@ -1,0 +1,40 @@
+<!-- 
+ * Programmer: Mehdi Sohrabi
+ * Email: mehdok@gmail.com
+ * Hub Channel: https://github.com/mehdok
+ -->
+ 
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="title_margin_top">15dip</dimen>
+    <dimen name="title_text_size">40sp</dimen>
+    
+    <dimen name="body_margin_right">15dip</dimen>
+    <dimen name="body_margin_left">15dip</dimen>
+    <dimen name="body_text_size">30sp</dimen>
+    
+    <dimen name="image_margin_top">15dip</dimen>
+    <dimen name="image_margin_bottom">15dip</dimen>
+    <dimen name="image_margin_left">15dip</dimen>
+    <dimen name="image_margin_right">15dip</dimen>
+    
+    <dimen name="button_padding">10dip</dimen>
+    
+    <dimen name="main_activity_butt_margin">5dip</dimen>
+    <dimen name="main_activity_butt_padding">10dip</dimen>
+    
+    <dimen name="keymap_button_textsize">30sp</dimen>
+    <dimen name="keymap_button_margin_top">5dip</dimen>
+    <dimen name="keymap_button_margin_bottom">5dip</dimen>
+    <dimen name="keymap_button_margin_left">10dip</dimen>
+    <dimen name="keymap_button_margin_right">10dip</dimen>
+    <dimen name="keymap_button_padding_top">3dip</dimen>
+    <dimen name="keymap_button_padding_bottom">3dip</dimen>
+    <dimen name="keymap_button_padding_left">5dip</dimen>
+    <dimen name="keymap_button_padding_right">5dip</dimen>
+
+</resources>

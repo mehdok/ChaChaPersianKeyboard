@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+ * Programmer: Mehdi Sohrabi
+ * Email: mehdok@gmail.com
+ * Hub Channel: https://github.com/mehdok
+ -->
+ 
+<resources>
+    
+    <color name="text_color">#D7C4E9</color>
+    <color name="background_color">#110029</color>
+    <color name="button_color">#904feb</color>
+    <color name="button_selector">#C9CCFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#C8C8C8</color>
+    <color name="red">#ff2222</color>
+    <color name="green">#31d517</color>
+    <color name="yellow">#f2ff1c</color>
+    
+</resources>

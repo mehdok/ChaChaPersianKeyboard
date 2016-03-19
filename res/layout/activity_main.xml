@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+ * Programmer: Mehdi Sohrabi
+ * Email: mehdok@gmail.com
+ * Hub Channel: https://github.com/mehdok
+ -->
+ 
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color">
+    
+    <com.mehdok.chachapersiankeyboardpro.MehdokButton 
+        android:id="@+id/change_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/keyMapping"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/white_button"
+        android:textSize="@dimen/body_text_size"
+        android:textColor="@android:color/black"
+        android:layout_margin="@dimen/main_activity_butt_margin"
+        android:padding="@dimen/main_activity_butt_padding"
+        android:onClick="keyMapButtonMethod"/>
+    
+    <com.mehdok.chachapersiankeyboardpro.MehdokButton 
+        android:id="@+id/guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/howToUse"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/change_key"
+        android:background="@drawable/white_button"
+        android:textSize="@dimen/body_text_size"
+        android:textColor="@android:color/black"
+        android:layout_margin="@dimen/main_activity_butt_margin"
+        android:padding="@dimen/main_activity_butt_padding"
+        android:onClick="guideButtonMethod"/>    
+    
+    <com.mehdok.chachapersiankeyboardpro.MehdokButton 
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutApp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/change_key"
+        android:background="@drawable/white_button"
+        android:textSize="@dimen/body_text_size"
+        android:textColor="@android:color/black"
+        android:layout_margin="@dimen/main_activity_butt_margin"
+        android:padding="@dimen/main_activity_butt_padding"
+        android:onClick="aboutButtonMethod"/>
+
+</RelativeLayout>

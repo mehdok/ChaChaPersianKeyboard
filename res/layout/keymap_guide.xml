@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+ * Programmer: Mehdi Sohrabi
+ * Email: mehdok@gmail.com
+ * Hub Channel: https://github.com/mehdok
+ -->
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:scrollbars="none"> 
+        
+        <RelativeLayout 
+    		android:layout_width="match_parent"
+        	android:layout_height="wrap_content">
+    
+    		<com.mehdok.chachapersiankeyboardpro.MehdokTextView 
+       			android:id="@+id/text1"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/keymap_guide_text1"
+        		android:textDirection="rtl"
+        		android:textStyle="bold"
+				android:gravity="center_horizontal"
+        		android:layout_alignParentTop="true"
+        		android:layout_margin="10dip"
+        		android:textSize="35sp"
+        		android:textColor="@color/green"/>
+    
+		    <com.mehdok.chachapersiankeyboardpro.MehdokTextView 
+        		android:id="@+id/text2"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/keymap_guide_text2"
+        		android:textDirection="rtl"
+        		android:gravity="right"
+        		android:layout_below="@id/text1"
+        		android:layout_margin="10dip"
+        		android:textSize="30sp"/>
+    
+    		<com.mehdok.chachapersiankeyboardpro.MehdokTextView 
+        		android:id="@+id/text3"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/keymap_guide_text3"
+        		android:textDirection="rtl"
+        		android:gravity="right"
+        		android:layout_below="@id/text2"
+        		android:layout_marginLeft="10dip"
+        		android:layout_marginRight="10dip"
+		        android:layout_marginTop="5dip"
+		        android:layout_marginBottom="5dip"
+		        android:textSize="30sp"/>
+    
+    		<com.mehdok.chachapersiankeyboardpro.MehdokTextView 
+        		android:id="@+id/text4"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/keymap_guide_text4"
+        		android:textDirection="rtl"
+        		android:gravity="right"
+        		android:layout_below="@id/text3"
+        		android:layout_marginLeft="10dip"
+        		android:layout_marginRight="10dip"
+        		android:layout_marginTop="5dip"
+        		android:layout_marginBottom="5dip"
+        		android:textSize="30sp"/>
+    		
+    		<com.mehdok.chachapersiankeyboardpro.MehdokTextView 
+        		android:id="@+id/text5"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/keymap_guide_text5"
+        		android:textDirection="rtl"
+        		android:gravity="right"
+        		android:layout_below="@id/text4"
+        		android:layout_marginLeft="10dip"
+        		android:layout_marginRight="10dip"
+        		android:layout_marginTop="5dip"
+        		android:layout_marginBottom="5dip"
+        		android:textSize="30sp"/>
+    		
+    		<LinearLayout 
+    		    android:layout_width="match_parent"
+    		    android:layout_height="20dip"
+    		    android:orientation="horizontal"
+    		    android:layout_below="@id/text5">    		    
+    		</LinearLayout>
+
+		</RelativeLayout>
+	</ScrollView>
+</LinearLayout>
